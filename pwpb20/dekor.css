@@ -1,0 +1,48 @@
+table {
+    border-collapse: collapse;
+    width: auto;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+  
+  table, th, td {
+    border: 1px solid darkslategrey;
+}
+
+  th {
+    background-color: darkgrey;
+    color: #333;
+ }
+  
+  tr:hover {
+    background-color: darkslategray;
+  }
+  th, td {
+    padding: 12px;
+    text-align: left;
+  }
+  tr:nth-child(even) {
+    background-color: darkgray;
+  }
+  
+  td:last-child, th:last-child {
+    border-right: none;
+  }
+  
+  tr:last-child {
+    border-bottom: 2px solid #333;
+  }
+  
+body{
+    background-color: rgb(153, 153, 153);
+
+}
+input{
+    background-color: darkgrey;
+}
+input:hover{
+    background-color: darkslategray;
+}
+select{
+    background-color: darkgrey; 
+}
